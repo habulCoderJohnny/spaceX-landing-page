@@ -20,3 +20,74 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-image: linear-gradient(to right, #9c9c9c, rgb(255, 255, 255));
 }
+
+
+/* ------------------------------------------------------------ 
+Setup components
+---------------------------------------------------------------*/
+
+/* button */
+.btn {
+    border-radius: 8px;
+}
+
+.btn-primary,
+.btn-outline-secondary {
+    padding: 12px 20px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+}
+
+.btn-outline-secondary {
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+.btn-outline-secondary:hover {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+.btn-outline-secondary:focus {
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+
+
+/* ------------------------------------------------------------ 
+Navbar
+---------------------------------------------------------------*/
+
+.navbar .btn-outline-secondary {
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16px;
+}
+
+.navbar {
+    padding: 32px 0;
+}
+
+.nav-link {
+    margin-left: 41px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: var(--black);
+}
+
