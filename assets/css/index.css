@@ -191,7 +191,7 @@ footer {
 }
 
 footer a {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 14px;
     color: var(--black);
     line-height: 18px;
@@ -200,8 +200,68 @@ footer a {
 footer .copy {
     margin-top: 32px;
     font-size: 14px;
-    color: var(--gray-1);
+    color: var(--white);
     line-height: 17px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
+
+/* ------------------------------------------------------------ 
+Responsive Part
+---------------------------------------------------------------*/
+@media (max-width: 576px) {
+
+    section.hero,
+    section.setup,
+    section.information {
+        text-align: center;
+    }
+
+    /* ------------------------------------------------------------ 
+    Navbar
+    ---------------------------------------------------------------*/
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+
+    /* ------------------------------------------------------------ 
+    Hero setion
+    ---------------------------------------------------------------*/
+    section.hero img {
+        padding-top: 2.5rem;
+    }
+
+    section.hero .text {
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 53px;
+    }
+
+    .buttons .btn {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .buttons .ms-3 {
+        margin-left: 0 !important;
+    }
+
+    /* ------------------------------------------------------------ 
+    Setup setion
+    ---------------------------------------------------------------*/
+    section.setup {
+        padding: 50px 0;
+    }
+
+    /* ------------------------------------------------------------ 
+    Footer setion
+    ---------------------------------------------------------------*/
+    footer {
+        padding-top: 50px;
+        margin-bottom: 44px;
+    }
+}
