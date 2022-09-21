@@ -180,3 +180,28 @@ section.information p {
 section.information .info-1 {
     padding: 183px 0;
 }
+
+
+/* ------------------------------------------------------------ 
+Footer setion
+---------------------------------------------------------------*/
+footer {
+    padding-top: 279px;
+    margin-bottom: 44px;
+}
+
+footer a {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--black);
+    line-height: 18px;
+}
+
+footer .copy {
+    margin-top: 32px;
+    font-size: 14px;
+    color: var(--gray-1);
+    line-height: 17px;
+    font-weight: 400;
+}
+
